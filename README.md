@@ -1,2 +1,3 @@
-# minimalist-portfolio-jsc
+# minimalist-portfolio-json
+
 A minimalist portfolio configurable via one JSON
