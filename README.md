@@ -1,46 +1,35 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+# 🌐 Portafolio Web Personal — Celena Alemán
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto es un portafolio web desarrollado con **Astro** para presentar mi trayectoria profesional, proyectos destacados y habilidades técnicas. Los datos se gestionan dinámicamente desde un archivo `cv.json`, lo que permite mantener el contenido actualizado de forma sencilla.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🧰 Tecnologías Utilizadas
+
+- ⚡ **Astro** — Framework moderno para construir sitios rápidos y optimizados.
+- 🎨 **Tailwind CSS / CSS personalizado** — Estilos responsivos y diseño visual atractivo.
+- 📄 **cv.json** — Archivo estructurado en formato JSON que contiene toda la información del portafolio (proyectos, experiencia, formación, etc.).
+- 🧩 **Componentes Astro** — Reutilizables para secciones como proyectos, contacto, experiencia y más.
+- 🚀 **Deploy** — Preparado para desplegar en plataformas como Vercel, Netlify o GitHub Pages.
+
+---
+
+## 📁 Estructura del Proyecto
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+│   └── assets/               # Imágenes y recursos públicos
+├── src/
+│   ├── components/           # Componentes reutilizables (ProjectCard, Header, Footer, etc.)
+│   ├── layouts/              # Plantillas base
+│   ├── pages/                # Páginas principales (index.astro, about.astro, etc.)
+│   ├── data/
+│   │   └── cv.json           # Archivo con toda la información del portafolio
+│   └── styles/               # Archivos de estilo
 └── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 👀 Quieres saber más?
