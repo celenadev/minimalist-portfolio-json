@@ -1,0 +1,21 @@
+---
+import Section from "../Section.astro";
+import { education } from "@cv";
+---
+
+<Section title="Idiomas">
+    <ul>
+        {
+            education.map(({ institution,area,studyType,startDate,endDate }) => {
+                return (
+                    <article>
+                        <p>
+                            {institution},{studyType} {area}
+                        </p>
+                        <p style={{ marginBottom: '.5em'}} >{startDate}- {endDate}</p>
+                    </article>
+                );
+            })
+        }
+    </ul>
+</Section>

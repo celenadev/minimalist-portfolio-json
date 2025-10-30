@@ -1,0 +1,42 @@
+---
+import Section from "../Section.astro";
+import { skills } from "@cv";
+---
+
+<Section title="Habilidades">
+<div class="skills-container">
+        {skills.map(({ name, level, keywords }) => (
+            <div class="skill-category">
+                <header>
+                    <h3>{name} - {level}</h3>
+                </header>
+                {/* Lista de Keywords como Tags */}
+                <ul class="keywords-list">
+                    {keywords.map((keyword, index) => {
+                        const cleanKeyword = keyword.replace(/ /g, '').trim();
+                        return (
+                            <li data-key={index} class="skill-tag">
+                                <span>{cleanKeyword}</span>
+                            </li>
+                        );
+                    })}
+                </ul>
+            </div>
+        ))}
+    </div>
+</Section>
+<style>
+    ul{
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    li{
+        border-radius: 6px;
+        background: #eee;
+        color: black;
+        font-weight: 500;
+        padding:0.2rem 0.6rem ;
+        font-size:12px;
+    }
+</style>

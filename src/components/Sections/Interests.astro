@@ -1,0 +1,34 @@
+---
+import Section from "../Section.astro";
+import { interests } from "@cv";
+---
+
+<Section title="Intereses">
+        {
+            interests.map(({ name, keywords }) => (
+                <div>
+                    <header>
+                        <h3>{name}</h3>
+                    </header>
+                    {/* Lista de Keywords como Tags */}
+                    <ul>
+                        {keywords.map((keyword, index) => {
+                            const keywordWithoutCite = keyword
+                                .replace(/\//g, "")
+                                .trim();
+                            return (
+                                <li data-key={index}>
+                                    {keywordWithoutCite}
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
+            ))
+        }
+</Section>
+<style>
+    li{
+        font-size:14px;
+    }
+</style>

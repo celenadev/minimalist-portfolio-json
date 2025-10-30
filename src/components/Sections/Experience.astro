@@ -1,0 +1,81 @@
+---
+import Section from "../Section.astro";
+import { work } from "@cv";
+---
+
+<Section title="Experiencia laboral ">
+    <ul>
+        {
+            work.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    summary,
+                    position,
+                    highlights,
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYeard =
+                        endDate != null
+                            ? new Date(endDate).getFullYear()
+                            : "Actual";
+                    const years = `${startYear}-${endYeard}`;
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h3>{name}</h3>
+                                        <h4>{position}</h4>
+                                    </div>
+                                    <time datetime="">{years}</time>
+                                </header>
+                                <footer>
+                                    <p style={{ marginBottom: '1em'}}>{summary}</p>
+                                    {highlights.length > 0 && (
+                                        <ul>
+                                            {highlights.map(
+                                                (highlight, index) => (
+                                                    <p data-key={index}>
+                                                        {highlight}
+                                                    </p>
+                                                ),
+                                            )}
+                                        </ul>
+                                    )}
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+    article h4 {
+        color: #222;
+        font-weight: 400;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+    time {
+        font-size: 0.85rem;
+        color: #555;
+    }
+</style>
