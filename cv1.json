@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Celena Alemán",
+    "label": "Full Stack Developer",
+    "image": "./src/assets/cele.jpg",
+    "email": "celenaaleman111@gmail.com",
+    "phone": "643 230 755",
+    "url": "",
+    "summary": "He adquirido sólidas competencias en tecnologías como Vue2, HTML5, CSS, JavaScript, PHP, Java, MySQL, Git, Node.js, Express, y Nodemon. Además, cuento con conocimientos en sistemas de diseño modular como Stitch, integraciones de servicios de Google, y manejo de CMS como Wordpress y Prestashop. Mi experiencia incluye el uso diario de herramientas de gestión ágil como ClickUp y comunicación en equipo a través de Slack. Actualmente, busco nuevas oportunidades como programadora web para aplicar y expandir mis conocimientos, y contribuir al éxito de proyectos innovadores.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Córdoba",
+      "countryCode": "España",
+      "region": "Andalucía"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "celena-aleman",
+        "url": "https://linkedin.com/in/celena-aleman/"
+      },
+      {
+        "network": "github",
+        "username": "celenadev",
+        "url": "https://github.com/celenadev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SIGNLAB NUEVAS TECNOLOGÍAS S.L",
+      "position": "DESARROLLADORA FRONT-END JUNIOR",
+      "url": "",
+      "startDate": "SEPTIEMBRE 2024",
+      "endDate": "DICIEMBRE 2024",
+      "summary": "Participación activa en el ciclo de vida de desarrollo Full Stack, enfocada en la implementación de características Back-End con PHP (CodeIgniter) y MySQL, mientras se contribuía al Front-End utilizando Vue2 para asegurar una interfaz de usuario dinámica y fluida. Se trabajó bajo metodologías ágiles, gestionando el control de versiones con Gitlab.",
+      "highlights": [
+        "- Desarrollé  nuevas funcionalidades y optimizaciones del lado del servidor utilizando PHP (Codelgniter) y MySQL.",
+        "- Colaboración en el Front-End mediante Vue2 y JavaScript, mejorando la experiencia de usuario y la interactividad.",
+        "- Gestión de código y flujos de trabajo en un entorno ágil con Gitlab y Sourcetree."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES Trassierra",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "Grado superior",
+      "startDate": "2022",
+      "endDate": "2024"
+    },
+    {
+      "institution": "IES Trassierra",
+      "area": "Gestión Administrativa",
+      "studyType": "Grado Medio",
+      "startDate": "2020",
+      "endDate": "2021"
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Tecnologías Front-end",
+      "level": "Sólido",
+      "keywords": [
+        "Vue2",
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Element"
+      ]
+    },
+    {
+      "name": "Tecnologías Back-end",
+      "level": "Sólido",
+      "keywords": [
+        "PHP (CodeIgniter)",
+        "Java",
+        "MySQL",
+        "Node.js",
+        "Expres",
+        "Nodemon"
+      ]
+    },
+    {
+      "name": "Herramientas y Metodologías",
+      "level": "Avanzado",
+      "keywords": [
+        "Gi",
+        "GitHub",
+        "Gitlab",
+        "Sourcetree",
+        "ClickUp (Gestión Ágil)",
+        "Slack (Comunicación)",
+        "Stitch (Diseño Modular)",
+        "Wordpress (CMS)",
+        "Prestashop (CMS)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Técnico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Desarrollo",
+      "keywords": [
+        "Desarrollo de software",
+        "Aprendizaje de nuevas tecnologías",
+        "Participación en hackathons y comunidades de desarrolladores"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ManosCerca Proyecto Final de Grado",
+      "isActive": true,
+      "startDate": "2024-10",
+      "endDate": "2025-06",
+      "description": "Plataforma web desarrollada para conectar familias con cuidadores cualificados de personas mayores, priorizando la accesibilidad, seguridad y confianza. Proyecto final del ciclo de Desarrollo de Aplicaciones Web en el IES Trassierra.",
+      "highlights": [
+        "Diseño e implementación de una plataforma intuitiva para búsqueda y gestión de cuidadores.",
+        "Funcionalidades clave: registro de usuarios, perfile, Element UI, Vuelidate y Sass.",
+        "Backend construido con Node.js, Express.js y MySQL, incluyendo autenticación JWT y hash de contraseñas con Argon2.",
+        "Gestión de sesiones y cookies con express-session y cookie-parser; subida de archivos con Multer.",
+        "Envío de correos electrónicos con Nodemailer y uso de dotenv para variables de entorno.",
+        "Gestión del proyecto mediante Trello, priorizando usabilidad, seguridad y escalabilidad.",
+        "Preparado para futuras mejoras: filtros avanzados, verificación de usuarios, selección de idiomas y recuperación de contraseñas.",
+        "Uso de herramientas de desarrollo como @vue/cli, Babel, ESLint, vue-template-compiler, nodemon y morgan para facilitar el desarrollo y depuración."
+      ],
+      "url": "https://github.com/mirnacelena/manoscerca"
+    },
+    {
+      "name": "Bootcamp de Desarrollo Web Full Stack (JSCamp)",
+      "isActive": true,
+      "startDate": "2025-01",
+      "endDate": "",
+      "description": "Proyecto integral desarrollado como parte del Bootcamp de Desarrollo Web Full Stack impartido por midudev. A lo largo del programa, se construye una aplicación completa aplicando conocimientos adquiridos en cada módulo, consolidando habilidades técnicas en frontend, backend, bases de datos, despliegue y containerización.",
+      "highlights": [
+        "Desarrollo de una aplicación web completa desde cero como parte del portafolio profesional.",
+        "Aplicación de HTML, CSS y JavaScript moderno para estructurar y estilizar la interfaz.",
+        "Uso de React para construir interfaces dinámicas y reactivas.",
+        "Gestión de estado global y navegación con React Router.",
+        "Creación de APIs REST con Node.js y Express.",
+        "Integración de bases de datos relacionales con SQL.",
+        "Implementación de TypeScript para mejorar la robustez del código.",
+        "Configuración de pipelines de CI/CD para automatizar pruebas y despliegues.",
+        "Containerización de la aplicación con Docker para facilitar la portabilidad.",
+        "Requisitos técnicos: Node.js v20+, Visual Studio Code, Git y Docker."
+      ],
+      "url": "https://github.com/user-attachments/assets/96eba96a-05b2-46da-b6eb-bf0484e7d2b6"
+    }
+  ]
+}
